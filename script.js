@@ -2,7 +2,7 @@ function pincode() {
   return {
     length: 4,
     input: [],
-    correctPin: "1234",
+    correctPin: "7031",
     // this will only check when inputing the last number
     // usefull if you're going to limit number of checks
     onlyCheckOnLastFieldInput: true,
@@ -58,9 +58,9 @@ function pincode() {
     },
     check() {
       if (this.input.join("") == this.correctPin) {
-        feedback.innerHTML = "Correct!";
+        feedback.innerHTML = "Good Job! here enjoy your reward: shorturl.at/jvY07  and dm with: I am stupid. afterwards";
       } else {
-        feedback.innerHTML = "Wrong!";
+        feedback.innerHTML = "Keep trying Loser!";
       }
     }
   };
